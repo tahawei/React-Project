@@ -4,11 +4,11 @@ import {
   Blog,
   // Features,
   Footer,
-  // header,
+  Header,
   Possibility,
   WhatGBT3,
-} from "./Containers";
-import Header from "./Containers/header/Header";
+} from "./containers";
+
 function App() {
   return (
     <div className="App">
