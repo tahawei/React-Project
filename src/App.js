@@ -1,10 +1,5 @@
 import "./App.css";
-// import Article from "./componants/article/Article";
-// import Brand from "./componants/brand/Brand";
-// import CTA from "./componants/cta/CTA";
-// import Feature from "./componants/feature/Feature";
-// import Navbar from "./componants/navbar/Navbar";
-
+import { Article, Brand, CTA, Feature, Navbar } from "./componants";
 function App() {
   return (
     <div>
