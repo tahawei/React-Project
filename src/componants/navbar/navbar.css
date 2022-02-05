@@ -58,6 +58,10 @@
 .gpt3__navbar-sign-sm {
   display: none;
 }
+.m,
+.x {
+  display: none;
+}
 
 @media (max-width: 576px) {
   .gpt3__navbar-sign-sm {
@@ -111,21 +115,22 @@
     width: 50px;
     margin-left: 10px;
   }
+
   div.active .gpt3__navbar-links_container {
     display: block;
   }
-  div.active .m {
+  .m {
     display: block;
   }
-  /* div.nonActive .x {
+  div.active .m {
     display: none;
-  } */
-  /* div.active .m {
+  }
+  .x {
     display: none;
-  } */
-  /* div.nonActive .x {
+  }
+  div.active .x {
     display: block;
-  } */
+  }
 }
 @-webkit-keyframes scale-up-center {
   0% {

@@ -3,16 +3,14 @@ import React, { useState } from "react";
 import logo from "../../assets/logo.svg";
 import "./navbar.css";
 import menu from "../../assets/bx-menu.svg";
-// import x_menu from "../../assets/bx-x.svg";
+import x_menu from "../../assets/bx-x.svg";
 const Navbar = () => {
   const [Active, setActive] = useState(false);
   const toggleClass = () => {
     Active ? setActive(false) : setActive(true);
-
-    console.log(Active);
   };
   return (
-    <div className={Active ? "active" : "nonActive"}>
+    <div className={Active ? "active" : ""}>
       <div className="gpt3__navbar">
         <div className="gpt3__navbar-links">
           <div className="gpt3__navbar-links_logo">
@@ -50,12 +48,12 @@ const Navbar = () => {
           className="gpt3__menu m"
           onClick={toggleClass}
         />
-        {/* <img
+        <img
           src={x_menu}
           className="gpt3__menu x"
           onClick={toggleClass}
           alt=""
-        /> */}
+        />
       </div>
     </div>
   );
